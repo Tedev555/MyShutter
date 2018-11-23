@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/photo_list_action"
+        android:title="Photo List"
+        android:icon="@drawable/baseline_list_white_18"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/photo_upload_action"
+        android:title="Photo Upload"
+        android:icon="@drawable/baseline_cloud_upload_white_18"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/about_action"
+        android:title="About"
+        android:icon="@drawable/baseline_info_white_18"
+        app:showAsAction="ifRoom"/>
+</menu>
